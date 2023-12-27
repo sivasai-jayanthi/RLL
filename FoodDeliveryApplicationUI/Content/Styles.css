@@ -1,0 +1,49 @@
+﻿body {
+}
+.card:hover {
+	transform: scale(1.05);
+}
+footer {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	background-color: lightcoral;
+	color: white;
+	flex-wrap: wrap;
+}
+.useful-links, .categories {
+	flex: 1;
+}
+.column {
+	font-size: 15px;
+	width: 30%; /* Adjust the width for three columns */
+	display: inline-block;
+	vertical-align: top;
+	padding: 0 20px;
+	box-sizing: border-box;
+}
+.ccolumn {
+	font-size: 15px;
+	width: 45%; /* Adjust the width for three columns */
+	display: inline-block;
+	vertical-align: top;
+	padding: 0 20px;
+	box-sizing: border-box;
+}
+.foot p {
+	text-align: center;
+}
+.card {
+	background-position: 0%;
+	background-size: cover;
+	height: 250px;
+	width: 200px;
+	border: 1px solid #e0e0e0;
+	border-radius: 5px;
+	padding: 20px;
+	margin: 10px;
+	text-align: center;
+	transition: transform 0.3s;
+	box-shadow: 2px 2px 7px gray;
+	cursor: pointer;
+}
